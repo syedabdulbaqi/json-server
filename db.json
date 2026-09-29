@@ -1,0 +1,841 @@
+{
+  "students": {
+    "results":[
+    {
+      "id": 1,
+      "tenant_id": "school-001",
+      "first_name": "Aarav",
+      "last_name": "Sharma",
+      "grade": "10",
+      "section": "A",
+      "roll_number": "001"
+    },
+    {
+      "id": 2,
+      "tenant_id": "school-001",
+      "first_name": "Vivaan",
+      "last_name": "Verma",
+      "grade": "10",
+      "section": "A",
+      "roll_number": "002"
+    },
+    {
+      "id": 3,
+      "tenant_id": "school-001",
+      "first_name": "Aditya",
+      "last_name": "Patel",
+      "grade": "10",
+      "section": "B",
+      "roll_number": "003"
+    },
+    {
+      "id": 4,
+      "tenant_id": "school-001",
+      "first_name": "Arjun",
+      "last_name": "Reddy",
+      "grade": "9",
+      "section": "A",
+      "roll_number": "004"
+    },
+    {
+      "id": 5,
+      "tenant_id": "school-001",
+      "first_name": "Vihaan",
+      "last_name": "Gupta",
+      "grade": "9",
+      "section": "B",
+      "roll_number": "005"
+    },
+    {
+      "id": 6,
+      "tenant_id": "school-001",
+      "first_name": "Ishaan",
+      "last_name": "Kumar",
+      "grade": "8",
+      "section": "A",
+      "roll_number": "006"
+    },
+    {
+      "id": 7,
+      "tenant_id": "school-001",
+      "first_name": "Reyansh",
+      "last_name": "Singh",
+      "grade": "8",
+      "section": "B",
+      "roll_number": "007"
+    },
+    {
+      "id": 8,
+      "tenant_id": "school-001",
+      "first_name": "Kabir",
+      "last_name": "Mehta",
+      "grade": "7",
+      "section": "A",
+      "roll_number": "008"
+    },
+    {
+      "id": 9,
+      "tenant_id": "school-001",
+      "first_name": "Atharv",
+      "last_name": "Joshi",
+      "grade": "7",
+      "section": "B",
+      "roll_number": "009"
+    },
+    {
+      "id": 10,
+      "tenant_id": "school-001",
+      "first_name": "Rudra",
+      "last_name": "Shah",
+      "grade": "6",
+      "section": "A",
+      "roll_number": "010"
+    },
+    {
+      "id": 11,
+      "tenant_id": "school-001",
+      "first_name": "Ananya",
+      "last_name": "Sharma",
+      "grade": "10",
+      "section": "B",
+      "roll_number": "011"
+    },
+    {
+      "id": 12,
+      "tenant_id": "school-001",
+      "first_name": "Diya",
+      "last_name": "Patel",
+      "grade": "10",
+      "section": "A",
+      "roll_number": "012"
+    },
+    {
+      "id": 13,
+      "tenant_id": "school-001",
+      "first_name": "Aadhya",
+      "last_name": "Rao",
+      "grade": "9",
+      "section": "A",
+      "roll_number": "013"
+    },
+    {
+      "id": 14,
+      "tenant_id": "school-001",
+      "first_name": "Myra",
+      "last_name": "Nair",
+      "grade": "9",
+      "section": "B",
+      "roll_number": "014"
+    },
+    {
+      "id": 15,
+      "tenant_id": "school-001",
+      "first_name": "Sara",
+      "last_name": "Khan",
+      "grade": "8",
+      "section": "A",
+      "roll_number": "015"
+    },
+    {
+      "id": 16,
+      "tenant_id": "school-001",
+      "first_name": "Anika",
+      "last_name": "Iyer",
+      "grade": "8",
+      "section": "B",
+      "roll_number": "016"
+    },
+    {
+      "id": 17,
+      "tenant_id": "school-002",
+      "first_name": "Rohan",
+      "last_name": "Malhotra",
+      "grade": "10",
+      "section": "A",
+      "roll_number": "017"
+    },
+    {
+      "id": 18,
+      "tenant_id": "school-002",
+      "first_name": "Karan",
+      "last_name": "Bansal",
+      "grade": "10",
+      "section": "B",
+      "roll_number": "018"
+    },
+    {
+      "id": 19,
+      "tenant_id": "school-002",
+      "first_name": "Yash",
+      "last_name": "Agarwal",
+      "grade": "9",
+      "section": "A",
+      "roll_number": "019"
+    },
+    {
+      "id": 20,
+      "tenant_id": "school-002",
+      "first_name": "Dev",
+      "last_name": "Chopra",
+      "grade": "9",
+      "section": "B",
+      "roll_number": "020"
+    },
+    {
+      "id": 21,
+      "tenant_id": "school-002",
+      "first_name": "Dhruv",
+      "last_name": "Saxena",
+      "grade": "8",
+      "section": "A",
+      "roll_number": "021"
+    },
+    {
+      "id": 22,
+      "tenant_id": "school-002",
+      "first_name": "Aryan",
+      "last_name": "Kapoor",
+      "grade": "8",
+      "section": "B",
+      "roll_number": "022"
+    },
+    {
+      "id": 23,
+      "tenant_id": "school-002",
+      "first_name": "Krish",
+      "last_name": "Sethi",
+      "grade": "7",
+      "section": "A",
+      "roll_number": "023"
+    },
+    {
+      "id": 24,
+      "tenant_id": "school-002",
+      "first_name": "Ayaan",
+      "last_name": "Khan",
+      "grade": "7",
+      "section": "B",
+      "roll_number": "024"
+    },
+    {
+      "id": 25,
+      "tenant_id": "school-002",
+      "first_name": "Manav",
+      "last_name": "Jain",
+      "grade": "6",
+      "section": "A",
+      "roll_number": "025"
+    },
+    {
+      "id": 26,
+      "tenant_id": "school-002",
+      "first_name": "Ira",
+      "last_name": "Sharma",
+      "grade": "10",
+      "section": "A",
+      "roll_number": "026"
+    },
+    {
+      "id": 27,
+      "tenant_id": "school-002",
+      "first_name": "Kiara",
+      "last_name": "Mehta",
+      "grade": "10",
+      "section": "B",
+      "roll_number": "027"
+    },
+    {
+      "id": 28,
+      "tenant_id": "school-002",
+      "first_name": "Tara",
+      "last_name": "Reddy",
+      "grade": "9",
+      "section": "A",
+      "roll_number": "028"
+    },
+    {
+      "id": 29,
+      "tenant_id": "school-002",
+      "first_name": "Navya",
+      "last_name": "Verma",
+      "grade": "9",
+      "section": "B",
+      "roll_number": "029"
+    },
+    {
+      "id": 30,
+      "tenant_id": "school-002",
+      "first_name": "Meera",
+      "last_name": "Nair",
+      "grade": "8",
+      "section": "A",
+      "roll_number": "030"
+    },
+    {
+      "id": 31,
+      "tenant_id": "school-002",
+      "first_name": "Riya",
+      "last_name": "Iyer",
+      "grade": "8",
+      "section": "B",
+      "roll_number": "031"
+    },
+    {
+      "id": 32,
+      "tenant_id": "school-002",
+      "first_name": "Pihu",
+      "last_name": "Gupta",
+      "grade": "7",
+      "section": "A",
+      "roll_number": "032"
+    },
+    {
+      "id": 33,
+      "tenant_id": "school-003",
+      "first_name": "Om",
+      "last_name": "Patil",
+      "grade": "10",
+      "section": "A",
+      "roll_number": "033"
+    },
+    {
+      "id": 34,
+      "tenant_id": "school-003",
+      "first_name": "Sai",
+      "last_name": "Kulkarni",
+      "grade": "10",
+      "section": "B",
+      "roll_number": "034"
+    },
+    {
+      "id": 35,
+      "tenant_id": "school-003",
+      "first_name": "Rishabh",
+      "last_name": "Mishra",
+      "grade": "9",
+      "section": "A",
+      "roll_number": "035"
+    },
+    {
+      "id": 36,
+      "tenant_id": "school-003",
+      "first_name": "Harsh",
+      "last_name": "Tiwari",
+      "grade": "9",
+      "section": "B",
+      "roll_number": "036"
+    },
+    {
+      "id": 37,
+      "tenant_id": "school-003",
+      "first_name": "Nikhil",
+      "last_name": "Yadav",
+      "grade": "8",
+      "section": "A",
+      "roll_number": "037"
+    },
+    {
+      "id": 38,
+      "tenant_id": "school-003",
+      "first_name": "Siddharth",
+      "last_name": "Deshmukh",
+      "grade": "8",
+      "section": "B",
+      "roll_number": "038"
+    },
+    {
+      "id": 39,
+      "tenant_id": "school-003",
+      "first_name": "Akshay",
+      "last_name": "Pawar",
+      "grade": "7",
+      "section": "A",
+      "roll_number": "039"
+    },
+    {
+      "id": 40,
+      "tenant_id": "school-003",
+      "first_name": "Pranav",
+      "last_name": "Joshi",
+      "grade": "7",
+      "section": "B",
+      "roll_number": "040"
+    },
+    {
+      "id": 41,
+      "tenant_id": "school-003",
+      "first_name": "Tanvi",
+      "last_name": "Patil",
+      "grade": "6",
+      "section": "A",
+      "roll_number": "041"
+    },
+    {
+      "id": 42,
+      "tenant_id": "school-003",
+      "first_name": "Ishita",
+      "last_name": "Kulkarni",
+      "grade": "6",
+      "section": "B",
+      "roll_number": "042"
+    },
+    {
+      "id": 43,
+      "tenant_id": "school-003",
+      "first_name": "Saanvi",
+      "last_name": "Mishra",
+      "grade": "10",
+      "section": "A",
+      "roll_number": "043"
+    },
+    {
+      "id": 44,
+      "tenant_id": "school-003",
+      "first_name": "Kavya",
+      "last_name": "Tiwari",
+      "grade": "10",
+      "section": "B",
+      "roll_number": "044"
+    },
+    {
+      "id": 45,
+      "tenant_id": "school-003",
+      "first_name": "Mahi",
+      "last_name": "Yadav",
+      "grade": "9",
+      "section": "A",
+      "roll_number": "045"
+    },
+    {
+      "id": 46,
+      "tenant_id": "school-003",
+      "first_name": "Avni",
+      "last_name": "Pawar",
+      "grade": "9",
+      "section": "B",
+      "roll_number": "046"
+    },
+    {
+      "id": 47,
+      "tenant_id": "school-003",
+      "first_name": "Shreya",
+      "last_name": "Deshmukh",
+      "grade": "8",
+      "section": "A",
+      "roll_number": "047"
+    },
+    {
+      "id": 48,
+      "tenant_id": "school-003",
+      "first_name": "Nandini",
+      "last_name": "Rao",
+      "grade": "8",
+      "section": "B",
+      "roll_number": "048"
+    },
+    {
+      "id": 49,
+      "tenant_id": "school-003",
+      "first_name": "Aarohi",
+      "last_name": "Shah",
+      "grade": "7",
+      "section": "A",
+      "roll_number": "049"
+    },
+    {
+      "id": 50,
+      "tenant_id": "school-003",
+      "first_name": "Anvi",
+      "last_name": "Khan",
+      "grade": "7",
+      "section": "B",
+      "roll_number": "050"
+    }
+  ],
+  "count": 50
+  },
+  "teachers": {
+    "results":[
+    {
+      "id": 1,
+      "tenant_id": "school-001",
+      "first_name": "Rajesh",
+      "last_name": "Sharma",
+      "subject": "Mathematics"
+    },
+    {
+      "id": 2,
+      "tenant_id": "school-001",
+      "first_name": "Priya",
+      "last_name": "Verma",
+      "subject": "Science"
+    },
+    {
+      "id": 3,
+      "tenant_id": "school-001",
+      "first_name": "Amit",
+      "last_name": "Patel",
+      "subject": "English"
+    },
+    {
+      "id": 4,
+      "tenant_id": "school-001",
+      "first_name": "Neha",
+      "last_name": "Reddy",
+      "subject": "Hindi"
+    },
+    {
+      "id": 5,
+      "tenant_id": "school-001",
+      "first_name": "Suresh",
+      "last_name": "Gupta",
+      "subject": "Social Studies"
+    },
+    {
+      "id": 6,
+      "tenant_id": "school-001",
+      "first_name": "Pooja",
+      "last_name": "Kumar",
+      "subject": "Computer Science"
+    },
+    {
+      "id": 7,
+      "tenant_id": "school-001",
+      "first_name": "Vikram",
+      "last_name": "Singh",
+      "subject": "Physics"
+    },
+    {
+      "id": 8,
+      "tenant_id": "school-001",
+      "first_name": "Sneha",
+      "last_name": "Mehta",
+      "subject": "Chemistry"
+    },
+    {
+      "id": 9,
+      "tenant_id": "school-001",
+      "first_name": "Manoj",
+      "last_name": "Joshi",
+      "subject": "Biology"
+    },
+    {
+      "id": 10,
+      "tenant_id": "school-001",
+      "first_name": "Kavita",
+      "last_name": "Shah",
+      "subject": "Geography"
+    },
+    {
+      "id": 11,
+      "tenant_id": "school-001",
+      "first_name": "Anil",
+      "last_name": "Rao",
+      "subject": "History"
+    },
+    {
+      "id": 12,
+      "tenant_id": "school-001",
+      "first_name": "Meena",
+      "last_name": "Nair",
+      "subject": "Mathematics"
+    },
+    {
+      "id": 13,
+      "tenant_id": "school-001",
+      "first_name": "Rakesh",
+      "last_name": "Iyer",
+      "subject": "Science"
+    },
+    {
+      "id": 14,
+      "tenant_id": "school-001",
+      "first_name": "Shalini",
+      "last_name": "Khan",
+      "subject": "English"
+    },
+    {
+      "id": 15,
+      "tenant_id": "school-001",
+      "first_name": "Deepak",
+      "last_name": "Malhotra",
+      "subject": "Hindi"
+    },
+    {
+      "id": 16,
+      "tenant_id": "school-001",
+      "first_name": "Nisha",
+      "last_name": "Bansal",
+      "subject": "Art"
+    },
+    {
+      "id": 17,
+      "tenant_id": "school-002",
+      "first_name": "Sanjay",
+      "last_name": "Agarwal",
+      "subject": "Mathematics"
+    },
+    {
+      "id": 18,
+      "tenant_id": "school-002",
+      "first_name": "Rekha",
+      "last_name": "Chopra",
+      "subject": "Science"
+    },
+    {
+      "id": 19,
+      "tenant_id": "school-002",
+      "first_name": "Vivek",
+      "last_name": "Saxena",
+      "subject": "English"
+    },
+    {
+      "id": 20,
+      "tenant_id": "school-002",
+      "first_name": "Anita",
+      "last_name": "Kapoor",
+      "subject": "Hindi"
+    },
+    {
+      "id": 21,
+      "tenant_id": "school-002",
+      "first_name": "Mohan",
+      "last_name": "Sethi",
+      "subject": "Social Studies"
+    },
+    {
+      "id": 22,
+      "tenant_id": "school-002",
+      "first_name": "Sunita",
+      "last_name": "Khan",
+      "subject": "Computer Science"
+    },
+    {
+      "id": 23,
+      "tenant_id": "school-002",
+      "first_name": "Ashok",
+      "last_name": "Jain",
+      "subject": "Physics"
+    },
+    {
+      "id": 24,
+      "tenant_id": "school-002",
+      "first_name": "Swati",
+      "last_name": "Mehta",
+      "subject": "Chemistry"
+    },
+    {
+      "id": 25,
+      "tenant_id": "school-002",
+      "first_name": "Ravi",
+      "last_name": "Sharma",
+      "subject": "Biology"
+    },
+    {
+      "id": 26,
+      "tenant_id": "school-002",
+      "first_name": "Pallavi",
+      "last_name": "Rao",
+      "subject": "Geography"
+    },
+    {
+      "id": 27,
+      "tenant_id": "school-002",
+      "first_name": "Nitin",
+      "last_name": "Nair",
+      "subject": "History"
+    },
+    {
+      "id": 28,
+      "tenant_id": "school-002",
+      "first_name": "Sunil",
+      "last_name": "Iyer",
+      "subject": "Mathematics"
+    },
+    {
+      "id": 29,
+      "tenant_id": "school-002",
+      "first_name": "Renu",
+      "last_name": "Gupta",
+      "subject": "Science"
+    },
+    {
+      "id": 30,
+      "tenant_id": "school-002",
+      "first_name": "Mahesh",
+      "last_name": "Verma",
+      "subject": "English"
+    },
+    {
+      "id": 31,
+      "tenant_id": "school-002",
+      "first_name": "Komal",
+      "last_name": "Patel",
+      "subject": "Hindi"
+    },
+    {
+      "id": 32,
+      "tenant_id": "school-002",
+      "first_name": "Dinesh",
+      "last_name": "Reddy",
+      "subject": "Art"
+    },
+    {
+      "id": 33,
+      "tenant_id": "school-003",
+      "first_name": "Prakash",
+      "last_name": "Patil",
+      "subject": "Mathematics"
+    },
+    {
+      "id": 34,
+      "tenant_id": "school-003",
+      "first_name": "Asha",
+      "last_name": "Kulkarni",
+      "subject": "Science"
+    },
+    {
+      "id": 35,
+      "tenant_id": "school-003",
+      "first_name": "Ganesh",
+      "last_name": "Mishra",
+      "subject": "English"
+    },
+    {
+      "id": 36,
+      "tenant_id": "school-003",
+      "first_name": "Kiran",
+      "last_name": "Tiwari",
+      "subject": "Hindi"
+    },
+    {
+      "id": 37,
+      "tenant_id": "school-003",
+      "first_name": "Madhav",
+      "last_name": "Yadav",
+      "subject": "Social Studies"
+    },
+    {
+      "id": 38,
+      "tenant_id": "school-003",
+      "first_name": "Sunita",
+      "last_name": "Deshmukh",
+      "subject": "Computer Science"
+    },
+    {
+      "id": 39,
+      "tenant_id": "school-003",
+      "first_name": "Ramesh",
+      "last_name": "Pawar",
+      "subject": "Physics"
+    },
+    {
+      "id": 40,
+      "tenant_id": "school-003",
+      "first_name": "Lata",
+      "last_name": "Joshi",
+      "subject": "Chemistry"
+    },
+    {
+      "id": 41,
+      "tenant_id": "school-003",
+      "first_name": "Vijay",
+      "last_name": "Rao",
+      "subject": "Biology"
+    },
+    {
+      "id": 42,
+      "tenant_id": "school-003",
+      "first_name": "Reena",
+      "last_name": "Shah",
+      "subject": "Geography"
+    },
+    {
+      "id": 43,
+      "tenant_id": "school-003",
+      "first_name": "Sanjay",
+      "last_name": "Khan",
+      "subject": "History"
+    },
+    {
+      "id": 44,
+      "tenant_id": "school-003",
+      "first_name": "Maya",
+      "last_name": "Nair",
+      "subject": "Mathematics"
+    },
+    {
+      "id": 45,
+      "tenant_id": "school-003",
+      "first_name": "Raj",
+      "last_name": "Iyer",
+      "subject": "Science"
+    },
+    {
+      "id": 46,
+      "tenant_id": "school-003",
+      "first_name": "Geeta",
+      "last_name": "Mehta",
+      "subject": "English"
+    },
+    {
+      "id": 47,
+      "tenant_id": "school-003",
+      "first_name": "Ajay",
+      "last_name": "Sharma",
+      "subject": "Hindi"
+    },
+    {
+      "id": 48,
+      "tenant_id": "school-003",
+      "first_name": "Seema",
+      "last_name": "Verma",
+      "subject": "Art"
+    },
+    {
+      "id": 49,
+      "tenant_id": "school-003",
+      "first_name": "Vikas",
+      "last_name": "Patel",
+      "subject": "Physical Education"
+    },
+    {
+      "id": 50,
+      "tenant_id": "school-003",
+      "first_name": "Archana",
+      "last_name": "Reddy",
+      "subject": "Music"
+    }
+  ],
+  "count": 50
+  },
+
+  "branding": [
+    {
+      "id": "schoola",
+      "success": true,
+      "data": {
+        "tenantId": "1",
+        "schoolName": "Greenwood Public School",
+        "primaryColor": "#1677ff",
+        "logoUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446458/schoola_logo.png",
+        "bgImageUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446459/schoola_background.jpg",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.greenwood.app",
+        "appleUrl": "https://apps.apple.com/app/greenwood-school/id123456789"
+      }
+    },
+    {
+      "id": "schoolb",
+      "success": true,
+      "data": {
+        "tenantId": "2",
+        "schoolName": "Redwood International School",
+        "primaryColor": "#1677bb",
+        "logoUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446459/schoolb_logo.png",
+        "bgImageUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446459/schoolb_background.jpg",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.Redwood.app",
+        "appleUrl": "https://apps.apple.com/app/Redwood-school/id123456789"
+      }
+    }
+  ]
+}
