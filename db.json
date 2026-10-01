@@ -810,6 +810,117 @@
   "count": 50
   },
 
+  "permissions": [
+    { "id": 1, "key": "dashboard.view", "description": "View dashboard" },
+    { "id": 2, "key": "students.read", "description": "View students" },
+    { "id": 3, "key": "users.read", "description": "View user list" },
+    { "id": 4, "key": "subjects.read", "description": "View subjects" },
+    { "id": 5, "key": "subjects.create", "description": "Add subjects" },
+    { "id": 6, "key": "subjects.update", "description": "Edit subjects" },
+    { "id": 7, "key": "subjects.assign", "description": "Assign subjects to classes" },
+    { "id": 8, "key": "classes.read", "description": "View classes" },
+    { "id": 9, "key": "settings.view", "description": "View settings" }
+  ],
+
+  "roles": [
+    {
+      "id": 1,
+      "tenant_id": null,
+      "name": "SUPER_ADMIN",
+      "description": "Platform owner, full access",
+      "is_system": true,
+      "permissions": ["*"]
+    },
+    {
+      "id": 2,
+      "tenant_id": null,
+      "name": "TENANT_ADMIN",
+      "description": "School administrator",
+      "is_system": true,
+      "permissions": [
+        "dashboard.view",
+        "students.read",
+        "users.read",
+        "subjects.read",
+        "subjects.create",
+        "subjects.update",
+        "subjects.assign",
+        "classes.read",
+        "settings.view"
+      ]
+    },
+    {
+      "id": 3,
+      "tenant_id": null,
+      "name": "TEACHER",
+      "description": "Teaching staff, read-mostly access",
+      "is_system": true,
+      "permissions": [
+        "dashboard.view",
+        "students.read",
+        "users.read",
+        "subjects.read",
+        "settings.view"
+      ]
+    },
+    {
+      "id": 4,
+      "tenant_id": null,
+      "name": "STUDENT",
+      "description": "Student, minimal access",
+      "is_system": true,
+      "permissions": ["dashboard.view", "students.read", "settings.view"]
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "tenant_id": null,
+      "tenantName": "Platform",
+      "name": "Super Admin",
+      "email": "superadmin@test.com",
+      "password": "password123",
+      "roles": ["SUPER_ADMIN"]
+    },
+    {
+      "id": 2,
+      "tenant_id": "school-001",
+      "tenantName": "Greenwood Public School",
+      "name": "Anita Admin",
+      "email": "admin@greenwood.test",
+      "password": "password123",
+      "roles": ["TENANT_ADMIN"]
+    },
+    {
+      "id": 3,
+      "tenant_id": "school-001",
+      "tenantName": "Greenwood Public School",
+      "name": "Rahul Teacher",
+      "email": "teacher@greenwood.test",
+      "password": "password123",
+      "roles": ["TEACHER"]
+    },
+    {
+      "id": 4,
+      "tenant_id": "school-001",
+      "tenantName": "Greenwood Public School",
+      "name": "Aarav Sharma",
+      "email": "student@greenwood.test",
+      "password": "password123",
+      "roles": ["STUDENT"]
+    },
+    {
+      "id": 5,
+      "tenant_id": "school-002",
+      "tenantName": "Redwood International School",
+      "name": "Rohit Admin",
+      "email": "admin@redwood.test",
+      "password": "password123",
+      "roles": ["TENANT_ADMIN"]
+    }
+  ],
+
   "branding": [
     {
       "id": "schoola",

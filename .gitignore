@@ -51,3 +51,4 @@ Thumbs.db
 # Cache files
 .turbo
 packages/api/dist
+commands.txt
