@@ -4,24 +4,28 @@ const path = require('path');
 
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
-const middlewares = jsonServer.defaults();
+
+// json-server's defaults ship their own cors() middleware. Disable it so that
+// only the one below answers (two cors layers fight over the same headers).
+const middlewares = jsonServer.defaults({ noCors: true });
 
 const port = process.env.PORT || 10000;
 
-// 1. Enable cors for EVERYTHING explicitly using the validated library
-server.use(cors({
-    origin: '*',
+// Single CORS setup. Handles the OPTIONS preflight, which the browser sends
+// whenever a request carries Authorization / X-Tenant-ID.
+server.use(
+  cors({
+    origin: true,        // reflect the caller's origin; '*' is rejected when credentials are sent
+    credentials: true,   // matches withCredentials: true on apiClient
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
-    credentials: true,
-    allowedHeaders: 'Content-Type, Authorization, X-Requested-With, Accept, Origin'
-}));
+    // allowedHeaders omitted on purpose: cors then echoes whatever the browser
+    // asks for in Access-Control-Request-Headers (Authorization, X-Tenant-ID, ...)
+  }),
+);
 
-// 2. Load the standard json-server defaults
 server.use(middlewares);
-
-// 3. Attach the router
 server.use(router);
 
 server.listen(port, () => {
-    console.log(`JSON Server is running on port ${port}`);
+  console.log(`JSON Server is running on port ${port}`);
 });
