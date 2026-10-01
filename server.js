@@ -1,28 +1,25 @@
 const jsonServer = require('json-server');
+const cors = require('cors');
 const path = require('path');
+
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
-
-// 1. Force defaults to disable its basic CORS implementation
-const middlewares = jsonServer.defaults({ noCors: true }); 
+const middlewares = jsonServer.defaults();
 
 const port = process.env.PORT || 10000;
 
-// 2. HARD-CODED CORS INTERCEPTOR (Must be at the absolute top)
-server.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*"); // Allows all frontends
-    res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
-    
-    // Crucial step: Handle the browser's preflight check instantly
-    if (req.method === "OPTIONS") {
-        return res.sendStatus(200); 
-    }
-    next();
-});
+// 1. Enable cors for EVERYTHING explicitly using the validated library
+server.use(cors({
+    origin: '*',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+    credentials: true,
+    allowedHeaders: 'Content-Type, Authorization, X-Requested-With, Accept, Origin'
+}));
 
-// 3. Load regular middlewares and routers below it
+// 2. Load the standard json-server defaults
 server.use(middlewares);
+
+// 3. Attach the router
 server.use(router);
 
 server.listen(port, () => {
