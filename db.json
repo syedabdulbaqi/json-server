@@ -968,7 +968,7 @@
   ],
   "tenants": [
     {
-      "id": "schoola",
+      "id": "greenwood",
       "success": true,
       "data": {
         "tenantId": "1",
@@ -981,7 +981,7 @@
       }
     },
     {
-      "id": "schoolb",
+      "id": "redwood",
       "success": true,
       "data": {
         "tenantId": "2",
