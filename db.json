@@ -856,14 +856,29 @@
       "description": "View settings"
     },
     {
-      "id": 9,
+      "id": 10,
       "key": "academy-profile.view",
       "description": "View Academy Profile"
     },
     {
-      "id": 9,
+      "id": 11,
       "key": "academy-profile.update",
       "description": "Update Academy Profile"
+    },
+    {
+      "id": 12,
+      "key": "my-profile.view",
+      "description": "View My Profile"
+    },
+    {
+      "id": 13,
+      "key": "my-profile.update",
+      "description": "Update My Profile"
+    },
+    {
+      "id": 14,
+      "key": "notifications.view",
+      "description": "View Notifications"
     }
   ],
   "roles": [
@@ -873,7 +888,9 @@
       "name": "SUPER_ADMIN",
       "description": "Platform owner, full access",
       "is_system": true,
-      "permissions": ["*"]
+      "permissions": [
+        "*"
+      ]
     },
     {
       "id": 2,
@@ -892,7 +909,10 @@
         "classes.read",
         "settings.view",
         "academy-profile.update",
-        "academy-profile.view"
+        "academy-profile.view",
+        "my-profile.view",
+        "my-profile.update",
+        "notifications.view"
       ]
     },
     {
@@ -907,7 +927,10 @@
         "users.read",
         "subjects.read",
         "settings.view",
-        "academy-profile.view"
+        "academy-profile.view",
+        "my-profile.view",
+        "my-profile.update",
+        "notifications.view"
       ]
     },
     {
@@ -916,7 +939,14 @@
       "name": "STUDENT",
       "description": "Student, minimal access",
       "is_system": true,
-      "permissions": ["dashboard.view", "students.read", "settings.view"]
+      "permissions": [
+        "dashboard.view",
+        "students.read",
+        "settings.view",
+        "my-profile.view",
+        "my-profile.update",
+        "notifications.view"
+      ]
     }
   ],
   "users": [
@@ -927,7 +957,9 @@
       "name": "Super Admin",
       "email": "superadmin@test.com",
       "password": "password123",
-      "roles": ["SUPER_ADMIN"]
+      "roles": [
+        "SUPER_ADMIN"
+      ]
     },
     {
       "id": 2,
@@ -936,7 +968,9 @@
       "name": "Anita Admin",
       "email": "admin@greenwood.test",
       "password": "password123",
-      "roles": ["TENANT_ADMIN"]
+      "roles": [
+        "TENANT_ADMIN"
+      ]
     },
     {
       "id": 3,
@@ -945,7 +979,9 @@
       "name": "Rahul Teacher",
       "email": "teacher@greenwood.test",
       "password": "password123",
-      "roles": ["TEACHER"]
+      "roles": [
+        "TEACHER"
+      ]
     },
     {
       "id": 4,
@@ -954,7 +990,9 @@
       "name": "Aarav Sharma",
       "email": "student@greenwood.test",
       "password": "password123",
-      "roles": ["STUDENT"]
+      "roles": [
+        "STUDENT"
+      ]
     },
     {
       "id": 5,
@@ -963,7 +1001,9 @@
       "name": "Rohit Admin",
       "email": "admin@redwood.test",
       "password": "password123",
-      "roles": ["TENANT_ADMIN"]
+      "roles": [
+        "TENANT_ADMIN"
+      ]
     }
   ],
   "tenants": [
@@ -972,12 +1012,24 @@
       "success": true,
       "data": {
         "tenantId": "1",
-        "schoolName": "Greenwood Public School",
+        "schoolName": "Greenwood",
         "tenantPrimaryColor": "#08992c",
         "logoUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446458/schoola_logo.png",
         "bgImageUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446459/schoola_background.jpg",
         "androidUrl": "https://play.google.com/store/apps/details?id=com.greenwood.app",
-        "appleUrl": "https://apps.apple.com/app/greenwood-school/id123456789"
+        "appleUrl": "https://apps.apple.com/app/greenwood-school/id123456789",
+        "branches": [
+          {
+            "id": "gw-main",
+            "name": "Greenwood Main Campus Mhdp",
+            "code": "GW-MAIN"
+          },
+          {
+            "id": "gw-north",
+            "name": "Greenwood North Branch",
+            "code": "GW-NORTH"
+          }
+        ]
       }
     },
     {
@@ -985,12 +1037,24 @@
       "success": true,
       "data": {
         "tenantId": "2",
-        "schoolName": "Redwood International School",
+        "schoolName": "Redwood",
         "tenantPrimaryColor": "#e21919",
         "logoUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446459/schoolb_logo.png",
         "bgImageUrl": "https://res.cloudinary.com/gtgq7hqs/image/upload/v1790446459/schoolb_background.jpg",
         "androidUrl": "https://play.google.com/store/apps/details?id=com.Redwood.app",
-        "appleUrl": "https://apps.apple.com/app/Redwood-school/id123456789"
+        "appleUrl": "https://apps.apple.com/app/Redwood-school/id123456789",
+        "branches": [
+          {
+            "id": "rw-city",
+            "name": "Redwood City Campus",
+            "code": "RW-CITY"
+          },
+          {
+            "id": "rw-west",
+            "name": "Redwood West Branch",
+            "code": "RW-WEST"
+          }
+        ]
       }
     }
   ]
